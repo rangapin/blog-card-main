@@ -1,0 +1,83 @@
+body {
+    background-color: hsl(47, 88%, 63%);
+    font-family: roboto, sans-serif;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 100;
+    color: hsl(0, 0%, 7%);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    width: 50vh;
+    text-align: left;
+    padding: 14px;
+    border: 1px solid hsl(0, 0%, 7%);
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 25px;
+    box-shadow: 7px 5px 5px hsl(0, 0%, 7%);
+
+}
+
+img {
+    border-radius: 10px;
+    margin-bottom: 14px;
+}
+
+.tag p {
+    display: inline;
+    font-weight: 800;
+    font-size: small;
+    background-color: hsl(47, 88%, 63%);
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.date p {
+    font-weight: 600;
+    font-size: small;
+
+}
+
+header {
+    font-size: small;
+}
+
+main p {
+    color: hsl(0, 0%, 50%);
+    padding-bottom: 0.5em;
+}
+
+footer {
+    display: flex;
+}
+
+footer p {
+    font-weight: bold;
+    padding-left: 0.5em;
+}
+
+footer img {
+    height: 45px;
+}
+
+.image-avatar {
+    height: 1em;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
