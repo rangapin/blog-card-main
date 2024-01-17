@@ -30,6 +30,17 @@ p {
 img {
     border-radius: 10px;
     margin-bottom: 14px;
+    margin-top: 8px
+}
+
+.image-illustration {
+    display: flex;
+    justify-content: center;
+}
+
+.tag {
+    margin-top: 8px;
+
 }
 
 .tag p {
